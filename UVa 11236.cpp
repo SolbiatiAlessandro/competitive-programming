@@ -12,9 +12,9 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    for(int a=1;a<=2000;a++){
-        for(int b=a;b<=2000;b++){
-            for(int c=b;c<=2000;c++){
+    for(int a=1;4*a<=2000;a++){
+        for(int b=a;a+3 *b<=2000;b++){
+            for(int c=b;a+b+2*c<=2000;c++){
                 long long p = (a * b * c);
                 long long s = (a + b + c);
                 
